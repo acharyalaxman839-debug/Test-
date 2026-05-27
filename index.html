@@ -1,114 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laxman Acharya - Profile</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        body {
-            background: linear-gradient(135deg, #e0eafc, #cfdef3);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            color: #333;
-        }
-
-        .profile-card {
-            background: #ffffff;
-            padding: 2.5rem;
-            border-radius: 16px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-            width: 100%;
-            max-width: 400px;
-            text-align: center;
-            transition: transform 0.3s ease;
-        }
-
-        .profile-card:hover {
-            transform: translateY(-5px);
-        }
-
-        .avatar {
-            width: 100px;
-            height: 100px;
-            background: #4a90e2;
-            color: #fff;
-            font-size: 2.5rem;
-            font-weight: bold;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 50%;
-            margin: 0 auto 1.5rem;
-            box-shadow: 0 4px 10px rgba(74, 144, 226, 0.3);
-        }
-
-        h1 {
-            font-size: 1.8rem;
-            color: #2c3e50;
-            margin-bottom: 1.5rem;
-        }
-
-        .info-group {
-            text-align: left;
-            border-top: 1px solid #eee;
-            padding-top: 1rem;
-        }
-
-        .info-item {
-            margin-bottom: 1rem;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .label {
-            font-size: 0.85rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            color: #888;
-            margin-bottom: 0.25rem;
-        }
-
-        .value {
-            font-size: 1.1rem;
-            color: #444;
-            font-weight: 500;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Easy Hardware</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="profile-card">
-        <!-- Initial avatar placeholder -->
-        <div class="avatar">LA</div>
-        
-        <h1>Welcome to My Profile</h1>
-        
-        <div class="info-group">
-            <div class="info-item">
-                <span class="label">Name</span>
-                <span class="value">Laxman Acharya</span>
-            </div>
-            
-            <div class="info-item">
-                <span class="label">Location</span>
-                <span class="value">Milanchok</span>
-            </div>
-            
-            <div class="info-item">
-                <span class="label">Level</span>
-                <span class="value">Pursuing Bachelor's Degree</span>
-            </div>
-        </div>
+<header>
+  <h1>Easy Hardware</h1>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="products.html">Products</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h2>Quality Hardware For Every Construction Project</h2>
+
+    <p>
+      Easy Hardware supplies materials and tools for houses,
+      bridges, roads, and infrastructure projects.
+    </p>
+
+    <a href="products.html" class="btn">Explore Products</a>
+  </div>
+</section>
+
+<section class="info-section">
+  <h2>Why Choose Us?</h2>
+
+  <div class="cards">
+    <div class="card">
+      <h3>Quality Products</h3>
+      <p>Strong and durable hardware materials.</p>
     </div>
 
+    <div class="card">
+      <h3>Affordable Price</h3>
+      <p>Best price for construction materials.</p>
+    </div>
+
+    <div class="card">
+      <h3>Reliable Service</h3>
+      <p>Fast and trusted customer support.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Easy Hardware. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
